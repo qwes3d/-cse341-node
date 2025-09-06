@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "version": "0.2.0",
+            "configurations": [
+            {
+            "name": "Debug nodeJs backend project",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/app.js",
+            "skipfiles": ["<node_internals>/**"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
